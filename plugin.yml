@@ -1,0 +1,27 @@
+name: pay4Tp
+author: Michael
+version: 1
+description: Allows ops to create tp points, and allows users to teleport to them.
+main: me.michael.e.pay4tp.Main
+commands:
+  addPayedTp:
+    usage: /<command> [name] [block distance for payment to start] [payment block distance] [tppoint payment per block distance]
+    description: Add a teleport command. The created command will teleport to current location.
+  tp:
+    usage: /<command> [name]
+    description: Teleport to specified tp location.
+  tppoints:
+    usage: /<command>
+    description: Shows you how many tp points you have.
+  buypoints: 
+    usage: /<command> [amount]
+    description: Buys tp points with the amount of iron you give.
+permissions: 
+  pay4tp.addTps:
+    description: Use the addPayedTp command.
+  pay4tp.tp:
+    description: Use the tp command.
+  pay4tp.tppoints:
+    description: Use the tpPoints command.
+  pay4tp.buypoints:
+    description: Use the buyPoints command.
